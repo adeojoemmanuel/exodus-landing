@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "../images/image500.png";
-import NewButton from "../components/Buttons/NewButton";
 import "../styles/Main.css";
 
 function Main() {
@@ -8,11 +6,6 @@ function Main() {
     <section className="hero">
       <div className="container">
         <div className="left-col">
-          {/* <a href="#" className="white-bar">
-            <p>
-              <NewButton text="NEW" /> Zap into Staked EXO with any asset
-            </p>
-          </a> */}
           <h1>The Decentralized Reserve Currency</h1>
           <p className="subhead">
             Exodus is building a community-owned decentralized financial
@@ -20,7 +13,6 @@ function Main() {
             world.
           </p>
         </div>
-        {/* <img src={Image} alt="Olympus DAO" className='hero-img' /> */}
       </div>
     </section>
   );
